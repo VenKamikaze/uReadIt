@@ -1,5 +1,5 @@
 {
   "template": "custom",
-  "build": "cd .. && make all && cd build && click build ..",
+  "build": "cd ../../.. && make all && cd build && click build ..",
   "kill": "qmlscene"
 }
