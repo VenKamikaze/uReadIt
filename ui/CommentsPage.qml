@@ -1,6 +1,6 @@
 import QtQuick 2.4
 import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.0
+import Ubuntu.Components.ListItems 1.3
 import "../models/QReddit"
 import "../components"
 import "../utils/Autolinker.js" as AutoLinkText

@@ -29,7 +29,7 @@ MainView {
     anchorToKeyboard: true
 
     width: units.gu(100)
-    height: units.gu(75)
+    height: units.gu(60)
 
     Themes.ThemeManager {
         id: themeManager
