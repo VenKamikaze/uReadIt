@@ -557,7 +557,8 @@ Page {
         }
     }
 
-    head.locked: uReadIt.height < units.gu(70) ? false : true
+    // hack - force the title to not disappear
+    head.locked: false //uReadIt.height < units.gu(70) ? false : true
     clip: head.locked
     head.onLockedChanged: if (head.locked) head.visible = true;
     flickable: (subscriptionsPanel.visible ? subredditsList : postsList)//uReadIt.height < units.gu(70) ? postsList : null
